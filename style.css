@@ -1,0 +1,36 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header header header header header header header header header"
+      "nav Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1"
+      "nav Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1 Article-1"
+      "nav Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2"
+      "nav Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2 Article-2"
+      "nav Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3"
+      "nav Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3 Article-3"
+      "nav Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4"
+      "nav Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4 Article-4"
+      "nav Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5"
+      "nav Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5 Article-5"
+      "nav footer footer footer footer footer footer footer footer footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .nav { grid-area: nav; }
+  
+  .footer { grid-area: footer; }
+  
+  .Article-1 { grid-area: Article-1; }
+  
+  .Article-2 { grid-area: Article-2; }
+  
+  .Article-3 { grid-area: Article-3; }
+  
+  .Article-4 { grid-area: Article-4; }
+  
+  .Article-5 { grid-area: Article-5; }
+  
